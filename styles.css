@@ -297,7 +297,7 @@ h3 {
 .intro p:last-child {
   margin: 0;
   font-size: clamp(1.15rem, 2vw, 1.45rem);
-  color: var(--muted);
+  color: var(--white);
 }
 
 .section-heading {
