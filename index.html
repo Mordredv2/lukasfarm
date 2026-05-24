@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Visit Luka's Farm in Tbilisi, Georgia — a friendly place to meet, feed, and interact with animals." />
+  <title>Luka's Farm | Tbilisi, Georgia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Luka's Farm home">
+      <span class="logo-mark">LF</span>
+      <span>Luka's Farm</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#animals">Animals</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">A small animal-friendly farm in Tbilisi, Georgia</p>
+        <h1>Meet the animals at Luka's Farm</h1>
+        <p class="hero-text">
+          Luka's Farm is a welcoming place where visitors can see animals up close,
+          learn about them, and enjoy a calm farm experience in Georgia.
+        </p>
+        <div class="hero-actions">
+          <a href="#visit" class="button primary">Plan a visit</a>
+          <a href="#animals" class="button secondary">See what to expect</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="Farm visit highlights">
+        <div class="hero-illustration">
+          <span>🐐</span>
+          <span>🐇</span>
+          <span>🐓</span>
+          <span>🐑</span>
+        </div>
+        <h2>A friendly farm visit</h2>
+        <p>Interact with animals, take photos, and spend time outdoors in a relaxed setting.</p>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div>
+        <p class="section-label">Welcome</p>
+        <h2>A farm created by Luka</h2>
+      </div>
+      <p>
+        Luka is a 17-year-old from Tbilisi, Georgia, who created this farm as a place
+        for people to connect with animals. The farm is designed for visitors who want
+        a simple, warm, and memorable animal experience.
+      </p>
+    </section>
+
+    <section class="section cards-section" id="animals">
+      <div class="section-heading">
+        <p class="section-label">Experience</p>
+        <h2>What visitors can do</h2>
+        <p>
+          Use this section to add the exact animals, rules, prices, and visit options later.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="info-card">
+          <div class="card-icon">🐾</div>
+          <h3>Meet animals</h3>
+          <p>See farm animals in a safe and guided environment.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">🥕</div>
+          <h3>Feed and interact</h3>
+          <p>Visitors may be able to feed or gently interact with selected animals.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">📸</div>
+          <h3>Take photos</h3>
+          <p>A calm outdoor setting for family, friends, and animal photos.</p>
+        </article>
+
+        <article class="info-card">
+          <div class="card-icon">🌿</div>
+          <h3>Enjoy nature</h3>
+          <p>Spend time outside and experience a quieter side of Tbilisi.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section visit-section" id="visit">
+      <div class="visit-box">
+        <p class="section-label">Before visiting</p>
+        <h2>Plan your farm visit</h2>
+        <p>
+          Visits may require advance contact. Add your available days, opening hours,
+          location details, and entry price here.
+        </p>
+
+        <ul class="visit-list">
+          <li><strong>Location:</strong> Tbilisi, Georgia</li>
+          <li><strong>Best for:</strong> animal lovers, families, friends, and small groups</li>
+          <li><strong>Activities:</strong> animal viewing, interaction, photos, outdoor time</li>
+          <li><strong>Note:</strong> children should be supervised around animals</li>
+        </ul>
+      </div>
+
+      <aside class="notice">
+        <h3>Safety note</h3>
+        <p>
+          Visitors should treat animals gently, follow Luka's instructions, and avoid
+          feeding animals without permission.
+        </p>
+      </aside>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div>
+        <p class="section-label">Contact</p>
+        <h2>Want to visit Luka's Farm?</h2>
+        <p>
+          Replace the placeholder details below with Luka's real phone number, Instagram,
+          email, or booking instructions.
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <p><strong>Phone:</strong> +995 XXX XX XX XX</p>
+        <p><strong>Instagram:</strong> @lukasfarm</p>
+        <p><strong>Email:</strong> hello@lukasfarm.ge</p>
+        <a class="button primary full" href="mailto:hello@lukasfarm.ge">Send an email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Luka's Farm. Tbilisi, Georgia.</p>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
