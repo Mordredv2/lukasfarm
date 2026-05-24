@@ -518,4 +518,31 @@ h3 {
 .about-list li {
   padding-left: 4px;
 }
+
+  .about-section {
+  display: block;
+}
+
+.about-content {
+  max-width: 760px;
+}
+
+.about-content h2 {
+  margin-bottom: 24px;
+}
+
+.about-content p {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.about-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 22px;
+  color: var(--muted);
+  font-size: 1rem;
+}
 }
